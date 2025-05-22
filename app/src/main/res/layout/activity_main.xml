@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nút điều khiển -->
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#33000000">
+
+        <Button android:id="@+id/btnLeft"
+            android:text="◀"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+
+        <Button android:id="@+id/btnDown"
+            android:text="▼"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <Button android:id="@+id/btnRight"
+            android:text="▶"
+            android:layout_width="64dp"
+            android:layout_height="64dp"/>
+
+        <Button android:id="@+id/btnRotate"
+            android:text="⟳"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</RelativeLayout>
